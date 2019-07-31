@@ -1,3 +1,4 @@
+#! /usr/bin/python
 # -*- coding: utf-8 -*-
 """
 Created on Thu Dec 03 15:06:27 2015
@@ -10,7 +11,7 @@ import sys
 import chilkat
 
 
-head_string="""
+head_string='''
 <html>
 <head>
   <title>Evernote Export</title>
@@ -25,11 +26,11 @@ head_string="""
   </style>
 </head>
 <body>
-"""
-tail_string="""
+'''
+tail_string='''
 </body>
 </html>
-"""
+'''
 
 iter_count=0
 
